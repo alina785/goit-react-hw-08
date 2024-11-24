@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  padding-right: 25px;
+  gap: 50px;
+}
+  
+.link {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(227, 224, 224);
+}
+  
+.link:hover {
+  color: rgb(135, 180, 222);
+}

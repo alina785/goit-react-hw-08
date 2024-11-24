@@ -1,0 +1,12 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(227, 224, 224);
+}
+  
+.home:hover {
+  color: rgb(135, 180, 222);
+}

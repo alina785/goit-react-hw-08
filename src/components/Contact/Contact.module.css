@@ -1,0 +1,58 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 3px rgb(42, 129, 209);
+  transition: transform 0.3s ease;
+}
+  
+.list:hover {
+  transform: scale(1.05);
+}
+  
+.svg {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+  
+.item {
+  display: flex;
+  gap: 8px;
+}
+  
+.user {
+  margin: 0;
+}
+  
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+  
+.change {
+  color: white;
+  background-color: green;
+  }
+  
+.change:hover {
+  color: white;
+  background-color: green;
+  border-color: white;
+}
+  
+.delete {
+  color: white;
+  background-color: red;
+  border: none;
+}
+  
+.delete:hover {
+  color: white;
+  background-color: red;
+  border: white;
+}

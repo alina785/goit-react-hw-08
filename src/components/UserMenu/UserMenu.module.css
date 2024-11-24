@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+  
+.user {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(227, 224, 224);
+}
+  
+.btn {
+  background-color: rgb(16, 112, 16);
+}
+  
+.btn:hover {
+  background-color: green;
+  border-color: white;
+}
